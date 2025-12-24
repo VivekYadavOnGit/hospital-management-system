@@ -52,7 +52,7 @@ This project is suitable for:
 ---
 
 ## 🧱 Project Architecture
-
+```bash
 src/main/java
 ├── controller
 ├── service
@@ -61,7 +61,7 @@ src/main/java
 ├── dto
 ├── exception
 └── config
-
+```
 
 - **Controller Layer** → Handles API requests  
 - **Service Layer** → Business logic  
@@ -90,9 +90,9 @@ src/main/java
 
 ### Steps
 1. Clone the repository
-   ```bash
+```bash
    git clone https://github.com/VivekYadavOnGit/hospital-management-system.git
-   ```
+```
 2. Configure database in application.properties
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/hms
@@ -164,3 +164,4 @@ Spring Boot | React | Node.js
 📫 Email: vivekyadavatwork@gmail.com
 
 🌐 Portfolio: https://vivekyadavonline.vercel.app
+
