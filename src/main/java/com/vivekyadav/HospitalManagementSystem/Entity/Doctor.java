@@ -18,6 +18,7 @@ import java.util.Set;
 @ToString
 
 public class Doctor {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
